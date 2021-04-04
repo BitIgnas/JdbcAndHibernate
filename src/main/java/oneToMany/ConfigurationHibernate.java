@@ -11,8 +11,12 @@ import org.hibernate.service.ServiceRegistry;
 
 import java.util.Properties;
 
-public class ConfigurationHibernate {
+/**
+ * This is hibernate configuration
+ * We specify: driver, url, user, dialect, and show sql;
+ */
 
+public class ConfigurationHibernate {
 
     private static SessionFactory sessionFactory;
     private static Configuration configuration;
